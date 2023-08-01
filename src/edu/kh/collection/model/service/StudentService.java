@@ -1,6 +1,6 @@
 package edu.kh.collection.model.service;
 
-import java.util.ArrayList;
+
 import java.util.InputMismatchException;
 import java.util.LinkedList;
 import java.util.List;
@@ -28,8 +28,8 @@ public class StudentService {
 	//private List<Student> studentList = new ArrayList<Student>(); // 검색(조회)에 효율적
 	private List<Student> studentList = new LinkedList<Student>(); // 추가, 수정, 삭제에 효율적
 	
-	// Student롤 저장되는 타입이 제한된 리스트 생성
-	// == Student만 정장 가능 == 모든 게 Student
+	// Student로 저장되는 타입이 제한된 리스트 생성
+	// == Student만 저장 가능 == 모든 게 Student
 	// == Student임을 검사할 필요가 없음
 	
 	public StudentService() {
@@ -89,7 +89,7 @@ public class StudentService {
 			
 			System.out.println("0. 프로그램 종료");
 			
-			System.out.print("\n메뉴 번호 선택 >>");
+			System.out.print("\n메뉴 번호 선택 >> ");
 			
 			try {
 				menuNum = sc.nextInt();
