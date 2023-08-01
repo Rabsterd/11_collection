@@ -25,7 +25,7 @@ public class SetService {
 		
 		// HashSet : Set의 대표적인 자식 클래스
 		// 사용 조건 1 : 저장되는 객체에 equals() 오버라이딩 필수
-		// 사용 조건 2 : 저장되는 객체에 hasCode() 오버라이딩 필수
+		// 사용 조건 2 : 저장되는 객체에 hashCode() 오버라이딩 필수
 		
 		// ** Hash라는 단어가 붙은 컬렉션은 반드시 저장되는 객체에
 		// 		equals(), hashCode() 오버라이딩 해야함
@@ -56,7 +56,7 @@ public class SetService {
 		System.out.println(set);
 		
 		// Set은 순서가 없어서 저장된 객체 하나를 얻어올 수 있는 방법이 없다
-		// - 대신에 Set 전체의 데이터를 하났기 반복적으로 얻어올 순 있다
+		// - 대신에 Set 전체의 데이터를 하나씩 반복적으로 얻어올 순 있다
 		
 		// 1. Iterator(반복자)
 		

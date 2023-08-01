@@ -68,14 +68,5 @@ public class Practice {
 	public String favorite() {
 		return name + "  " + author;
 	}
-
-
-
-	public Practice removeAll(Object object) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	
 	
 }
